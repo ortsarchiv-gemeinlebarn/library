@@ -45,7 +45,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/JakobVesely/ortsarchiv-gemeinlebarn-library.git"
+        "url": "git+https://github.com/ortsarchiv-gemeinlebarn/library.git"
     },
     "keywords": [
         "Typescript",
@@ -55,7 +55,7 @@
     ],
     "author": "Jakob vesely",
     "bugs": {
-        "url": "https://github.com/JakobVesely/ortsarchiv-gemeinlebarn-library/issues"
+        "url": "https://github.com/ortsarchiv-gemeinlebarn/library/issues"
     },
-    "homepage": "https://github.com/JakobVesely/ortsarchiv-gemeinlebarn-library#readme"
+    "homepage": "https://github.com/ortsarchiv-gemeinlebarn/library#readme"
 }
