@@ -19,8 +19,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@ortsarchiv-gemeinlebarn'
         
-      - name: Install Dependancies [npm install]
-        run: npm install
+      - name: Install Dependancies [npm ci]
+        run: npm ci
 
       - name: Publish Package [npm publish]
         run: npm publish
