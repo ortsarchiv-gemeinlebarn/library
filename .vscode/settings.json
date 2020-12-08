@@ -1,0 +1,20 @@
+{
+    "tslint.configFile": "./tslint.json",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "[typescript]": {
+        "editor.defaultFormatter": null
+    },
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "editor.formatOnSave": true,
+    "html.format.wrapAttributes": "preserve",
+    "html.format.unformatted": "svg",
+    "html.autoClosingTags": true
+}
