@@ -21,6 +21,12 @@ jobs:
         
       - name: Install Dependancies [npm ci]
         run: npm ci
+        
+      - name: Install Dependancies [npm ci]
+        run: npm ci
+        
+      - name: Build Angular Library [ng build --prod]
+        run: ng build --prod  
 
       - name: Publish Package [npm publish]
         run: npm publish
