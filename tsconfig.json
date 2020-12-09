@@ -16,9 +16,9 @@
             "dom"
         ],
         "paths": {
-            "models": [
-                "dist/models/models",
-                "dist/models"
+            "data": [
+                "dist/data/data",
+                "dist/data"
             ]
         }
     }
