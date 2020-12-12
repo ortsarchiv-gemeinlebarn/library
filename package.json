@@ -7,9 +7,9 @@
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "ci:build": "ng build --prod"
+        "ci:build": "ng build data --prod"
     },
-    "private": false,
+    "private": true,
     "dependencies": {
         "@angular/animations": "~11.0.0",
         "@angular/common": "~11.0.0",

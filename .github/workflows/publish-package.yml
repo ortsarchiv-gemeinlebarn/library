@@ -24,6 +24,9 @@ jobs:
         
       - name: Build Angular Library [npm run ci:build]
         run: npm run ci:build
+        
+      - name: Switch dir to Data Lib
+        run: cd dist/data
 
       - name: Publish Package [npm publish]
         run: npm publish
