@@ -7,7 +7,7 @@
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "ci:build": "ng build data --prod"
+        "ci:build": "ng build --prod"
     },
     "private": true,
     "dependencies": {
