@@ -26,6 +26,6 @@ jobs:
         run: npm run ci:build
 
       - name: Publish '@ortsarchiv-gemeinlebarn/data' Package [npm publish]
-        run: npm publish ./dist/data
+        run: npm publish ./dist/data --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_JS_TOKEN }}
