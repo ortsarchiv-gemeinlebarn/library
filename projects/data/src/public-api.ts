@@ -28,6 +28,7 @@ export { SelectsModel } from './lib/selects-model/selects-model';
 export { SerieModel } from './lib/serie-model/serie-model';
 export { TagModel } from './lib/tag-model/tag-model';
 export { TagsModel } from './lib/tags-model/tags-model';
+export { ThemaBereichModel } from './lib/thema-bereich-model/thema-bereich-model';
 export { ThemaHauptkategorieModel } from './lib/thema-hauptkategorie-model/thema-hauptkategorie-model';
 export { ThemaUnterkategorieModel } from './lib/thema-unterkategorie-model/thema-unterkategorie-model';
 export { UploadModel } from './lib/upload-model/upload-model';
