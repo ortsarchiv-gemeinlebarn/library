@@ -11,7 +11,7 @@ export class ItemDigitalModel
     public nachbearbeitet: boolean;
     public beschreibung: string;
     public datum: string | Date;
-    public seitenanzahl: number;
+    public seitenAnzahl: number;
     public coverThumbnail: string;
     public datumAufnahme: string | Date;
     public datumBearbeitet: string | Date;
