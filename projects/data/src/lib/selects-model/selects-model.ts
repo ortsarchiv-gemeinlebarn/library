@@ -11,12 +11,14 @@ import { OriginalitaetModel } from '../originalitaet-model/originalitaet-model';
 import { PersonModel } from '../person-model/person-model';
 import { PriorisierungModel } from '../priorisierung-model/priorisierung-model';
 import { TagModel } from '../tag-model/tag-model';
+import { ThemaBereichModel } from '../thema-bereich-model/thema-bereich-model';
 import { ThemaHauptkategorieModel } from '../thema-hauptkategorie-model/thema-hauptkategorie-model';
 import { ThemaUnterkategorieModel } from '../thema-unterkategorie-model/thema-unterkategorie-model';
 
 export class SelectsModel
 {
     public readonly bestaende: Array<BestandModel>;
+    public readonly themaBereiche: Array<ThemaBereichModel>;
     public readonly themaHauptkategorien: Array<ThemaHauptkategorieModel>;
     public readonly themaUnterkategorien: Array<ThemaUnterkategorieModel>;
     public readonly mediumHauptkategorien: Array<MediumHauptkategorieModel>;

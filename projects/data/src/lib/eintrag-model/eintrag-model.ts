@@ -8,6 +8,7 @@ import { MediumUnterkategorieModel } from '../medium-unterkategorie-model/medium
 import { PersonModel } from '../person-model/person-model';
 import { SerieModel } from '../serie-model/serie-model';
 import { TagsModel } from '../tags-model/tags-model';
+import { ThemaBereichModel } from '../thema-bereich-model/thema-bereich-model';
 import { ThemaHauptkategorieModel } from '../thema-hauptkategorie-model/thema-hauptkategorie-model';
 import { ThemaUnterkategorieModel } from '../thema-unterkategorie-model/thema-unterkategorie-model';
 import { VerortungModel } from '../verortung-model/verortung-model';
@@ -23,6 +24,7 @@ export class EintragModel
     public datierung: DatierungModel;
     public themaUnterkategorie: ThemaUnterkategorieModel;
     public themaHauptkategorie: ThemaHauptkategorieModel;
+    public themaBereich: ThemaBereichModel;
     public mediumUnterkategorie: MediumUnterkategorieModel;
     public mediumHauptkategorie: MediumHauptkategorieModel;
     public mediumFreitext: string;
