@@ -1,4 +1,4 @@
-name: Publish Package
+name: Publish Package 'Data'
 
 on:
   push:
@@ -23,17 +23,9 @@ jobs:
         run: npm ci
         
       - name: Build Angular Library 'Data' [npm run ci:build]
-        run: npm run ci:build:data
+        run: npm run ci:build:data          
 
       - name: Publish '@ortsarchiv-gemeinlebarn/data' Package [npm publish]
         run: npm publish ./dist/data --access=public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_JS_TOKEN }}
-        
-      - name: Build Angular Library 'Components' [npm run ci:build]
-        run: npm run ci:build:components
-
-      - name: Publish '@ortsarchiv-gemeinlebarn/components' Package [npm publish]
-        run: npm publish ./dist/components --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_JS_TOKEN }}
