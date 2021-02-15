@@ -19,6 +19,10 @@
             "data": [
                 "dist/data/data",
                 "dist/data"
+            ],
+            "components": [
+                "dist/components/components",
+                "dist/components"
             ]
         }
     }

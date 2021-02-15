@@ -1,13 +1,15 @@
 {
     "name": "ortsarchiv-gemeinlebarn-library",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "ci:build": "ng build --prod"
+        "e2e": "ng e2e",
+        "ci:build:data": "ng build data --prod",
+        "ci:build:components": "ng build components --prod"
     },
     "private": true,
     "dependencies": {
