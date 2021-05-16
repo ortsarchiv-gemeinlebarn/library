@@ -19,6 +19,9 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@ortsarchiv-gemeinlebarn'
         
+      - name: Install Angular [npm install -g @angular/cli]
+        run: npm install -g @angular/cli
+        
       - name: Install Dependancies [npm ci]
         run: npm ci
         
