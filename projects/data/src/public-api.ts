@@ -5,7 +5,6 @@ export { BestandModel } from './lib/bestand-model/bestand-model';
 export { DatierungADModel } from './lib/datierung-ad-model/datierung-ad-model';
 export { DatierungModel } from './lib/datierung-model/datierung-model';
 export { DatumADModel } from './lib/datum-ad-model/datum-ad-model';
-export { EinschraenkungenModel } from './lib/einschraenkungen-model/einschraenkungen-model';
 export { EintragListModel } from './lib/eintrag-list-model/eintrag-list-model';
 export { EintragMinimalModel } from './lib/eintrag-minimal-model/eintrag-minimal-model';
 export { EintragModel } from './lib/eintrag-model/eintrag-model';
