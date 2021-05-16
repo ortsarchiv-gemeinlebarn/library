@@ -8,6 +8,7 @@ export { DatumADModel } from './lib/datum-ad-model/datum-ad-model';
 export { EintragListModel } from './lib/eintrag-list-model/eintrag-list-model';
 export { EintragMinimalModel } from './lib/eintrag-minimal-model/eintrag-minimal-model';
 export { EintragModel } from './lib/eintrag-model/eintrag-model';
+export { EintragPolicyModel } from './lib/eintrag-policy-model/eintrag-policy-model';
 export { EreignisModel } from './lib/ereignis-model/ereignis-model';
 export { ExternerBesitzerModel } from './lib/externer-besitzer-model/externer-besitzer-model';
 export { FachModel } from './lib/fach-model/fach-model';
@@ -23,6 +24,7 @@ export { MediumHauptkategorieModel } from './lib/medium-hauptkategorie-model/med
 export { MediumUnterkategorieModel } from './lib/medium-unterkategorie-model/medium-unterkategorie-model';
 export { OriginalitaetModel } from './lib/originalitaet-model/originalitaet-model';
 export { PersonModel } from './lib/person-model/person-model';
+export { PolicyModel } from './lib/policy-model/policy-model';
 export { PriorisierungModel } from './lib/priorisierung-model/priorisierung-model';
 export { SearchResultItemModel } from './lib/search-result-item-model/search-result-item-model';
 export { SelectsModel } from './lib/selects-model/selects-model';
