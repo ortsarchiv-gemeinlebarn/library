@@ -3,9 +3,9 @@ import { PolicyModel } from "../policy-model/policy-model";
 export class EintragPolicyModel
 {
     public policy: PolicyModel;
-    public start: Date = null;
-    public end: Date = null;
-    public notes: string = null;
+    public start: string | Date = null;
+    public end: string | Date = null;
+    public note: string = null;
 
     constructor() { }
 
