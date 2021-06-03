@@ -1,63 +1,63 @@
 {
-  "name": "ortsarchiv-gemeinlebarn-library",
-  "version": "1.4.2",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "ci:build:data": "ng build data --prod",
-    "ci:build:components": "ng build components --prod"
-  },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "~12.0.3",
-    "@angular/cli": "^12.0.3",
-    "@angular/common": "~12.0.3",
-    "@angular/compiler": "~12.0.3",
-    "@angular/core": "~12.0.3",
-    "@angular/forms": "~12.0.3",
-    "@angular/platform-browser-dynamic": "^12.0.3",
-    "@angular/router": "~12.0.3",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.3",
-    "@angular/compiler-cli": "~12.0.3",
-    "@types/jasmine": "~3.6.0",
-    "@types/jest": "^26.0.23",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^6.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.1.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "ng-packagr": "^11.0.3",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~4.2.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ortsarchiv-gemeinlebarn/library.git"
-  },
-  "keywords": [
-    "Typescript",
-    "Angular",
-    "Ortsarchiv",
-    "Gemeinlebarn"
-  ],
-  "author": "Jakob vesely",
-  "bugs": {
-    "url": "https://github.com/ortsarchiv-gemeinlebarn/library/issues"
-  },
-  "homepage": "https://github.com/ortsarchiv-gemeinlebarn/library#readme"
+    "name": "ortsarchiv-gemeinlebarn-library",
+    "version": "1.4.2",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "ci:build:data": "ng build data --configuration production",
+        "ci:build:components": "ng build components --configuration production"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "~12.0.3",
+        "@angular/cli": "^12.0.3",
+        "@angular/common": "~12.0.3",
+        "@angular/compiler": "~12.0.3",
+        "@angular/core": "~12.0.3",
+        "@angular/forms": "~12.0.3",
+        "@angular/platform-browser-dynamic": "^12.0.3",
+        "@angular/router": "~12.0.3",
+        "rxjs": "~6.6.0",
+        "tslib": "^2.0.0",
+        "zone.js": "~0.11.4"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "~0.1100.3",
+        "@angular/compiler-cli": "~12.0.3",
+        "@types/jasmine": "~3.6.0",
+        "@types/jest": "^26.0.23",
+        "@types/node": "^12.11.1",
+        "codelyzer": "^6.0.0",
+        "jasmine-core": "~3.6.0",
+        "jasmine-spec-reporter": "~5.0.0",
+        "karma": "~5.1.0",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage": "~2.0.3",
+        "karma-jasmine": "~4.0.0",
+        "karma-jasmine-html-reporter": "^1.5.0",
+        "ng-packagr": "^11.0.3",
+        "protractor": "~7.0.0",
+        "ts-node": "~8.3.0",
+        "tslint": "~6.1.0",
+        "typescript": "~4.2.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ortsarchiv-gemeinlebarn/library.git"
+    },
+    "keywords": [
+        "Typescript",
+        "Angular",
+        "Ortsarchiv",
+        "Gemeinlebarn"
+    ],
+    "author": "Jakob vesely",
+    "bugs": {
+        "url": "https://github.com/ortsarchiv-gemeinlebarn/library/issues"
+    },
+    "homepage": "https://github.com/ortsarchiv-gemeinlebarn/library#readme"
 }
