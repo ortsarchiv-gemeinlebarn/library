@@ -9,6 +9,7 @@ export { EintragListModel } from './lib/eintrag-list-model/eintrag-list-model';
 export { EintragMinimalModel } from './lib/eintrag-minimal-model/eintrag-minimal-model';
 export { EintragModel } from './lib/eintrag-model/eintrag-model';
 export { EintragPolicyModel } from './lib/eintrag-policy-model/eintrag-policy-model';
+export { EintragSchaufensterModel } from './lib/eintrag-schaufenster-model/eintrag-schaufenster-model';
 export { EreignisModel } from './lib/ereignis-model/ereignis-model';
 export { ExternerBesitzerModel } from './lib/externer-besitzer-model/externer-besitzer-model';
 export { FachModel } from './lib/fach-model/fach-model';
@@ -26,6 +27,8 @@ export { OriginalitaetModel } from './lib/originalitaet-model/originalitaet-mode
 export { PersonModel } from './lib/person-model/person-model';
 export { PolicyModel } from './lib/policy-model/policy-model';
 export { PriorisierungModel } from './lib/priorisierung-model/priorisierung-model';
+export { SchaufensterObjektModel } from './lib/schaufenster-objekt/schaufenster-objekt';
+export { SchaufensterObjektBestandteilModel } from './lib/schaufenster-objekt-bestandteil/schaufenster-objekt-bestandteil';
 export { SearchResultItemModel } from './lib/search-result-item-model/search-result-item-model';
 export { SelectsModel } from './lib/selects-model/selects-model';
 export { SerieModel } from './lib/serie-model/serie-model';
