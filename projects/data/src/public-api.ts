@@ -15,6 +15,7 @@ export { ExternerBesitzerModel } from './lib/externer-besitzer-model/externer-be
 export { FachModel } from './lib/fach-model/fach-model';
 export { FarbraumModel } from './lib/farbraum-model/farbraum-model';
 export { ItemDigitalModel } from './lib/item-digital-model/item-digital-model';
+export { ItemDigitalPageModel } from './lib/item-digital-page-model/item-digital-page-model';
 export { ItemExternModel } from './lib/item-extern-model/item-extern-model';
 export { ItemInternModel } from './lib/item-intern-model/item-intern-model';
 export { ItemsModel } from './lib/items-model/items-model';
